@@ -1,0 +1,13 @@
+.smallerText {
+    padding-top: 20px;
+    font-size: 40px;
+}
+
+.spacing {
+    padding-left: 5px;
+    color: #5e9eff;
+}
+
+.spacing:hover {
+    color: #bfb6b6;
+}

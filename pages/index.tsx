@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import styles from './index.module.css';
 
 const Home: NextPage = () => {
   return (
@@ -14,7 +15,8 @@ const Home: NextPage = () => {
       </Head>
 
       <main>
-        <div>Coming Soon</div>
+        <div>Launching Soon. Stay tuned!</div>
+        <div className={styles.smallerText}>Meanwhile, visit our<span><a className={styles.spacing} href='https://blog.merstab.com'> blog</a></span></div>
       </main>
     </div>
   )
